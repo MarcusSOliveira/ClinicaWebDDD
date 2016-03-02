@@ -1,0 +1,39 @@
+﻿<%@ Master Language="C#" Inherits="System.Web.Mvc.ViewMasterPage" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <link href="../../Content/Site.css" rel="stylesheet" />
+    <title><asp:ContentPlaceHolder ID="TitleContent" runat="server" /></title>
+</head>
+<body>
+    <div>
+        <table style="text-align:center;border:0;width:100%">
+            <tr>
+                <td style="background-color:#006486; height:5px;" colspan:"4"></td>
+            </tr>
+            <tr>
+                <td style="height:65px; width:15px">
+                    <strong>LOGO</strong>
+                </td>
+                <td style="text-align:right;">
+                    <table>
+                        <tr>
+                            <td style="width:100%; text-align:right; font-size:40px; font-family:Arial;"></td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+        </table>
+        <table style="width:100%; text-align:center; border:0;">
+            <tr>
+                <td style="background-color:#006486; height:5px;"></td>
+            </tr>
+        </table>
+        <asp:ContentPlaceHolder ID="MainContent" runat="server">
+        
+        </asp:ContentPlaceHolder>
+    </div>
+</body>
+</html>
